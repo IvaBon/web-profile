@@ -1,0 +1,27 @@
+header{
+    display:flex;
+    justify-content:space-between;
+    background: #5d6072;;
+    color:white;
+    padding:15px;
+    align-items:center;
+    box-shadow: inset;
+}
+
+a{
+    padding: 10px;
+    text-decoration: none ;
+    color: white;
+    
+    
+}
+a:hover{
+  background-color: salmon;
+}
+
+
+@media (max-width: 667px) {
+    header {
+      flex-direction: column;
+    }
+  }
