@@ -7,16 +7,20 @@ const Home = () =>{
             display:'flex',
             flexDirection:'column',
             justifyContent:'center',
-            alignItems:'center'
+            alignItems:'center',
+            // maxWidth:'1080px'
         },
-        h1:{},
+        h1:{
+        
+        },
         img:{
             borderRadius:'40%',
             maxWidth:'70px'
             
         },
         p:{
-            padding:'20px'
+            padding:'20px',
+            maxWidth:'500px'
         }
     }
         

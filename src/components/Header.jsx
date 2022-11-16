@@ -1,5 +1,5 @@
 
-import './Header.css'
+import './Style.css'
 
 const Header = () =>{
 
