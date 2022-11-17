@@ -1,22 +1,25 @@
 header{
     display:flex;
     justify-content:space-between;
-    background: white;
-    color:black;
+    color:white;
     padding:15px;
     align-items:center;
     box-shadow: 0 6px 10px rgba(57, 63, 72, 0.3);
+    margin:5px;
+    background: inherit;
+    backdrop-filter: blur(10px);
+    outline: 1px solid white;
 }
 
 a{
     padding: 10px;
     text-decoration: none ;
-    color: black;
+    color: white;
     
     
 }
 a:hover{
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid white;
   
 }
 

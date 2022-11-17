@@ -12,7 +12,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div>
+    <div style={{marginTop:'5px',padding:'5px'}}>
       <Header className='header'/>
       <BrowserRouter>
         <Routes>

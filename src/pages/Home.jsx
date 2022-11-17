@@ -8,15 +8,16 @@ const Home = () =>{
             flexDirection:'column',
             justifyContent:'center',
             alignItems:'center',
-            // maxWidth:'1080px'
+            padding:'5px',
+            color:'white'
         },
         h1:{
         
         },
         img:{
             borderRadius:'40%',
-            maxWidth:'70px'
-            
+            maxWidth:'80px',
+            outline:'1px solid white'
         },
         p:{
             padding:'20px',

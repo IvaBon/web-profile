@@ -1,5 +1,24 @@
+section{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    flex-direction: column;
+}
+
 .img{
     height: 200px;
     width: 300px;
-    
+    opacity: .7;
+    transition: 1s ease;
+    margin: 16px;
+}
+
+.img:hover{
+    transition: .5s ease;
+    opacity: 1.0;
+}
+
+h1{
+    flex-direction: column;
 }
