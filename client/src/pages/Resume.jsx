@@ -5,7 +5,7 @@ const Resume = () =>{
     return(
         <div style={{display:'flex',flexDirection:'column',color:'white',position:'relative',left:'50px'}}>
             <h1 style={{}}>resume</h1>
-            <p>Download my<a style={{textDecoration:'underline'}}href={pdf} target='_blank'>resume</a></p>
+            <p>Download my<a style={{textDecoration:'underline'}}href={pdf} target='_blank' rel="noreferrer">resume</a></p>
             <div>
                 <h3>Front-end</h3>
                 <ul>
